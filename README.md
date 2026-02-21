@@ -1,0 +1,1 @@
+# Parsimonious-Mixtures-of-Dimension-Wise-Scaled-Normal-Mixtures
