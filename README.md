@@ -1,8 +1,8 @@
 # Parsimonious-Mixtures-of-Dimension-Wise-Scaled-Normal-Mixtures
 
-This repository contains the code for fitting parsimonious mixtures of Dimension-Wise Scaled Shifted Exponential Normal Mixtures.
-In the following, you find a description of the functions (and their arguments) contained in the Main.R file.
-Note that, to execute the models, the files Main.R and Utils.R must be sourced in the current R session.
+This repository contains the code for fitting parsimonious mixtures of Dimension-Wise Scaled Shifted Exponential Normal distributions. 
+Below is a description of the functions (and their arguments) provided in Main.R. 
+To run the models, both Main.R and Utils.R must be sourced in the current R session.
 
 ## DSNM_M.fit ##
 
