@@ -3,7 +3,7 @@
 This repository contains the code for fitting parsimonious mixtures of Dimension-Wise Scaled Shifted Exponential Normal Mixtures.
 In the following, you find a description of the functions (and their arguments) contained in the Main.R file.
 
-## DSNM_M.fit (Main.R) ##
+## DSNM_M.fit ##
 
 ### Description ###
 
@@ -25,7 +25,7 @@ DSNM_M.fit (X, k, corr = "all", scale = "all", tailedness = "all", rel.tol = 0.0
 * verbose: A logical specifying whether to display fitting information.
 * nThreads: A positive integer indicating the number of cores used for running in parallel.  
 
-## extract.bestM (Utils.R) ##
+## extract.bestM ##
 
 ### Description ###
 
