@@ -1,7 +1,7 @@
 # Parsimonious-Mixtures-of-Dimension-Wise-Scaled-Normal-Mixtures
 
 This repository contains the code for fitting parsimonious mixtures of Dimension-Wise Scaled Shifted Exponential Normal Mixtures.
-In the following, you find a description of the principal functions (and their arguments) contained in the Main.R and Utils.R files.
+In the following, you find a description of the functions (and their arguments) contained in the Main.R file.
 
 ## DSNM_M.fit (Main.R) ##
 
@@ -40,24 +40,6 @@ extract.bestM (results, sp.th = 0, criterion = "BIC")
 * results: The output of the DSNM_M.fit() function.
 * sp.th: Numeric threshold defining the minimum allowable mixture weight for each cluster, used to avoid potential spurious solutions. When set to 0 (default), the constraint is disabled.
 * criterion: A character indicating the information criterion to be used. Possible values are "BIC" or "ICL".
-
-## rDSSEN (Utils.R) ##
-
-### Description ###
-
-This function generates random observations from a DSSEN distribution.
-
-### Usage ###
-
-rDSSEN (n, mu = rep(0, d), Sigma = NULL, theta = rep(500, d), norm.dens = "dmnorm")
-
-### Arguments ###
-
-* n: The number of statistical units.
-* mu: A numeric vector of means.
-* Sigma: A matrix for the scale matrix.
-* theta: A numeric vector of tailedness parameters.
-* norm.dens: A character indicating which R package to use for the Gaussian density function. Possible values are "dmnorm" from the mnormt package or "dmvnorm" from the mvtnorm package.
 
 # Example files
 
