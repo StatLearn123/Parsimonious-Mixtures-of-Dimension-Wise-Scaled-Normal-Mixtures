@@ -18,9 +18,9 @@ DSNM_M.fit (X, k, corr = "all", scale = "all", tailedness = "all", rel.tol = 0.0
 
 * X: An n x p matrix, where n is the number of observations and p is the number of variables.
 * k: A vector (or a number) containing the groups to be tried. If k is a vector, it must be 1:k. 
-* corr: A character indicating the parsimonious structure for the reference correlation matrix P. Possible values are: "Identity", "Free", "E.comp", or "all". When "all" is used, all the parsimonious structures are considered.
-* scale: A character indicating the parsimonious structure for the reference marginal standard deviations matrix T. Possible values are: "Free", "E.dim", "E.comp", "E.comp.dim", or "all". When "all" is used, all the parsimonious structures are considered.
-* tailedness: A character indicating the parsimonious structure for the tailedness parameter \theta. Possible values are: "Free", "E.dim", "E.comp", "E.comp.dim", "Asympt", or "all". When "all" is used, all the parsimonious structures are considered.
+* corr: A character indicating the parsimonious structure for the reference correlation matrix P. Possible values are: "Identity", "Free", "E.comp", or "all", where "E.comp" stands for equality across components. When "all" is used, all the parsimonious structures are considered.
+* scale: A character indicating the parsimonious structure for the reference marginal standard deviations matrix T. Possible values are: "Free", "E.dim", "E.comp", "E.comp.dim", or "all", where "E.dim" stands for equality across dimensions, and "E.comp.dim" stands for equality across components and dimensions. When "all" is used, all the parsimonious structures are considered.
+* tailedness: A character indicating the parsimonious structure for the tailedness parameter \theta. Possible values are: "Free", "E.dim", "E.comp", "E.comp.dim", "Asympt", or "all", where "Asympt" stands for asymptotic value. When "all" is used, all the parsimonious structures are considered.
 * rel.tol: A numeric indicating the stopping criterion for the algorithm.
 * iter.max: A numeric indicating the maximum number of iterations of the algorithm.
 * verbose: A logical specifying whether to display fitting information.
