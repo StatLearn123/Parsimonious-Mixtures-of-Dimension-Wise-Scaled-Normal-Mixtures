@@ -45,3 +45,10 @@ extract.bestM (results, sp.th = 0, criterion = "BIC")
 # Example files
 
 The "Sim 1_Example File.R" provides an example for the first simulation study of the paper. The "Sim 2_File.R" and "Real Data_File.R" provide the code for the second simulation study and the real-data analysis of the paper.
+
+# SenTinMixt Package
+
+The "SenTinMixt_1.0.0.tar.gz" contains the functions for fitting parsimonious mixtures of MSEN and MTIN distributions introduced in https://doi.org/10.1007/s10182-021-00430-8 
+
+
+
