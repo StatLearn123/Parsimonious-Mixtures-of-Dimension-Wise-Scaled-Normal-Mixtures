@@ -4,6 +4,8 @@ This repository contains the code for fitting parsimonious mixtures of Dimension
 Below is a description of the functions (and their arguments) provided in Main.R. 
 To run the models, both Main.R and Utils.R must be sourced in the current R session.
 
+Furthermore, example files for running simulations and real data analyses are provided, as well as the SenTinMixt Package for fitting the models of Tomarchio, S.D., Bagnato, L., & Punzo, A. Model-based clustering via new parsimonious mixtures of heavy-tailed distributions. AStA Adv Stat Anal 106, 315–347 (2022). https://doi.org/10.1007/s10182-021-00430-8
+
 ## DSNM_M.fit ##
 
 ### Description ###
